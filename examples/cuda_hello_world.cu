@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <cstdio>
 
 #include <cuda_playground_common/cuda_assert.h>
 
