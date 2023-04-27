@@ -1,2 +1,3 @@
 add_executable(cuda_hello_world cuda_hello_world.cu)
 target_compile_features(cuda_hello_world PRIVATE cxx_std_17 cuda_std_17)
+target_link_libraries(cuda_hello_world PRIVATE cuda_playground_common)
